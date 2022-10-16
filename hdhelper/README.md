@@ -40,6 +40,7 @@
 * Create a post to find teammate
 * Edit and update a post
 * Send a request email to a post owner
+* Admin functionalities such as enable/disable course, student and posts
 
 ## Environment Variables
 Edit `application.yml` file to add relevant variables. E.g.
