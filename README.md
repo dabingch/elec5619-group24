@@ -52,3 +52,41 @@ password: <Database password>
 ```
 
 ## Database
+
+Our database is hosted on cloud, and you can access it though credentials below:
+
+```
+url: jdbc:mysql://35.189.27.112/HDhelper
+username: root
+password: elec5619group24
+```
+
+> You can simply append the credentials in `application.yml` to allow the server to connect to it, or you can use your own URL either to local/remote cloud database server.
+
+## Email SMTP Server
+
+We used `maildev`'s SMTP server to connect to a SMTP server to send out our activation emails. Therefore, for this service to be available. You are **requested to install and connect to [maildev](https://github.com/maildev/maildev)** before running the server.
+
+![image](https://user-images.githubusercontent.com/61271027/193802860-d32378da-ac0e-4864-ad7b-7bfe84f2837c.png)
+
+## Install
+
+```shell
+cd frontend
+
+npm install
+```
+
+## Run
+
+### Backend
+
+After adding the environment variables in `application.yml` and enable `maildev` server, you can simply run the app though runing the `HdhelperApplication.class`
+
+### Frontend
+
+```shell
+cd frontend
+
+npm run serve
+```
