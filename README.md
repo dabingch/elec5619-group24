@@ -10,7 +10,7 @@
 * spring-boot-starter-data-mail 2.7.3
 * spring-boot-starter-test 2.7.3
 * JUnit 4.13.2
-* mysql-connector-java 2.7.3
+* mysql-connector-java 8.0.3
 * lombok 1.8.24
 * log4j-core 2.17.1
 
@@ -28,16 +28,16 @@
 
 * Sign in
 * Sign up with email verification
-* Check and Update personal profile
+* Check and update personal profile
 * Check all available courses
 * Search courses by the course name
-* Check all comments of courses
+* Check all comments for course review
 * Check all comments of a course 
-* Check all posts of courses
+* Check all posts for finding teammates
 * Check all posts of a course
-* Comment and rate a course
+* Make a course review for a course
 * Create a new course if the user can not find a course
-* Create a post to find teammate
+* Create a new post to find teammates
 * Edit and update a post
 * Send a request email to a post owner
 * Admin functionalities such as enable/disable course, student and posts
@@ -81,7 +81,15 @@ npm install
 
 ### Backend
 
-After adding the environment variables in `application.yml` and enable `maildev` server, you can simply run the app though runing the `HdhelperApplication.class`
+```shell
+cd backend
+
+mvn clean
+
+mvn install
+
+mvn spring-boot:run
+```
 
 ### Frontend
 
