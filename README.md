@@ -56,9 +56,9 @@ password: <Database password>
 Our database is hosted on cloud, and you can access it though credentials below:
 
 ```
-url: jdbc:mysql://35.189.27.112/HDhelper
+url: jdbc:mysql://<IP_ADDRESS>/HDhelper
 username: root
-password: elec5619group24
+password: <PASSWORD>
 ```
 
 > You can simply append the credentials in `application.yml` to allow the server to connect to it, or you can use your own URL either to local/remote cloud database server.
