@@ -16,7 +16,7 @@
 
 ### Frontend
 
-* @element-plus/icons-vue ^2.0.10
+* @element-plus/icons-vue 2.0.10
 * axios 1.1.2
 * core-js 3.8.3
 * element-plus 2.2.17
