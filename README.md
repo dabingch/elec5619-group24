@@ -1,4 +1,4 @@
-# elec5619-group24
+# ELEC5619 Group24
 
 ## Used libraries
 
